@@ -22,7 +22,7 @@
       <Value Profile="(Default)">FreeDns Updater</Value>
     </Setting>
     <Setting Name="RefreshMillis" Type="System.Int32" Scope="User">
-      <Value Profile="(Default)">60000</Value>
+      <Value Profile="(Default)">600000</Value>
     </Setting>
     <Setting Name="ApiKey" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
