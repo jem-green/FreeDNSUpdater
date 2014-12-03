@@ -2,6 +2,11 @@
 Thumbs.db
 ehthumbs.db
 
+# Build Artifacts
+bin/
+debug/
+obj/
+
 # Folder config file
 Desktop.ini
 
