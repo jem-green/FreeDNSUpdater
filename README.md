@@ -1,7 +1,7 @@
 FreeDNSUpdater
 ==============
 
-A Windows Console application for updating raid.org Free DNS ddns.
+A Windows Console application for updating afraid.org Free DNS ddns.
 
 1. Compile.
 2. Copy FreeDnsSConsole.exe, FreeDnsCore.dll and FreeDnsonsole.exe.config to some installation directory.
