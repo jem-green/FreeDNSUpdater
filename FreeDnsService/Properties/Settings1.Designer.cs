@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FreeDnsService.Properties {
+namespace FreeDnsConsole {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -71,18 +71,6 @@ namespace FreeDnsService.Properties {
             }
             set {
                 this["ConnectionTimeout"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("FreeDns Updater")]
-        public string ServiceName {
-            get {
-                return ((string)(this["ServiceName"]));
-            }
-            set {
-                this["ServiceName"] = value;
             }
         }
         

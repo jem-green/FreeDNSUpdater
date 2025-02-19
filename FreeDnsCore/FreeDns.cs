@@ -25,7 +25,10 @@ namespace FreeDnsCore
         /// <returns></returns>
         public xml GetRecords(TimeSpan timeout)
         {
-            var response = GetResponse(string.Format(@"https://freedns.afraid.org/api/?action=getdyndns&sha={0}&style=xml", _apiKey), timeout);
+            // https://freedns.afraid.org/api/?action=getdyndns&v=2&sha=[]&style=xml
+
+            string uri = string.Format(@"https://freedns.afraid.org/api/?action=getdyndns&v=2&sha={0}&style=xml", _apiKey);
+            var response = GetResponse(uri, timeout);
             using(var responseStream = response.GetResponseStream())
             {
                 return (xml)_responseSerializer.Deserialize(responseStream);

@@ -18,9 +18,7 @@
     <Setting Name="ConnectionTimeout" Type="System.TimeSpan" Scope="User">
       <Value Profile="(Default)">00:00:13.3700000</Value>
     </Setting>
-    <Setting Name="ServiceName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">FreeDns Updater</Value>
-    </Setting>
+
     <Setting Name="RefreshMillis" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">600000</Value>
     </Setting>
