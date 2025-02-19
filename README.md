@@ -3,6 +3,8 @@ FreeDNSUpdater
 
 A Windows Console application for updating afraid.org Free DNS ddns.
 
+Configured it in the FreeDnsConsole.exe.config file.
+
 1. Compile.
 2. Copy FreeDnsSConsole.exe, FreeDnsCore.dll and FreeDnsonsole.exe.config to some installation directory.
 3. Execute FreeConsole.exe 
